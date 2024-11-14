@@ -21,6 +21,7 @@ onDeleteCharacter( id:string ):void {
 
 onNewCharacter( characters:Character ):void {
   this.dbzService.addCharacter(characters);
+  console.log(characters)
 }
 
 }
